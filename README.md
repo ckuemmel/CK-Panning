@@ -1,0 +1,2 @@
+# CK Panning
+spektrales Panorama
