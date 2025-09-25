@@ -1,0 +1,35 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build CK-Panning JUCE Plugin",
+			"type": "shell",
+			"command": "cmake -B build -S . && cmake --build build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "CMake Build CK-Panning",
+			"type": "shell",
+			"command": "cmake -B build -S . && cmake --build build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "CMake Build CK-Panning",
+			"type": "shell",
+			"command": "cmake -B build -S . && cmake --build build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}
